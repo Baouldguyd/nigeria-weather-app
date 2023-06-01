@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-box">
+        <div class="phone1">
+          <div class="main-screen">
+            <div class="top-section">
+              <div id="location">
+                <ul>
+                  <li id="box"></li>
+                  <div class="wrap">
+                    <li>
+                      <span class="material-symbols-outlined">
+                        location_on
+                      </span>
+                    </li>
+                    <li><p id="place"></p></li>
+                  </div>
+                  <li id="menu"></li>
+                </ul>
+                <p>Today's Report</p>
+              </div>
+              
+              <div id="weather-logo">
+                <div id="icon">
+                  <img id="wicon" src="" alt="Weather icon" style="color: white" />
+                </div>
+              </div>
+            </div>
+            <div class="down-section">
+              <div id="weather-temp">
+                <p id="temp"></p>
+              </div>
+              <div id="weather-details">
+                <div><p id="humidity"></p></div>
+                <div><p id="weather-detail"></p></div>
+                <div><p id="weather-description"></p></div>
+              </div>
+            </div>
+          </div>
+          <div class="today-screen">
+            <!--- Nigeria states -->
+            <select id="country-state" name="country-state">
+              <option value="">Select Location</option>
+              <option value="AB" id="state-code">Abia</option>
+              <option value="AD" id="state-code">Adamawa</option>
+              <option value="AK" id="state-code">Akwa-Ibom</option>
+              <option value="AN" id="state-code">Anambra</option>
+              <option value="BA" id="state-code">Bauchi</option>
+              <option value="BY" id="state-code">Bayelsa</option>
+              <option value="BE" id="state-code">Benue</option>
+              <option value="BO">Borno</option>
+              <option value="CR">Cross River State</option>
+              <option value="DE">Delta State</option>
+              <option value="EB">Ebonyi State</option>
+              <option value="ED">Edo State</option>
+              <option value="EK">Ekiti State</option>
+              <option value="EN">Enugu State</option>
+              <option value="FC">Federal Capital Territory</option>
+              <option value="GO">Gombe State</option>
+              <option value="IM">Imo State</option>
+              <option value="JI">Jigawa State</option>
+              <option value="KD">Kaduna State</option>
+              <option value="KN">Kano State</option>
+              <option value="KT">Katsina State</option>
+              <option value="KE">Kebbi State</option>
+              <option value="KO">Kogi State</option>
+              <option value="KW">Kwara State</option>
+              <option value="LA">Lagos</option>
+              <option value="NA">Nasarawa State</option>
+              <option value="NI">Niger State</option>
+              <option value="OG">Ogun State</option>
+              <option value="ON">Ondo State</option>
+              <option value="OS">Osun State</option>
+              <option value="OY">Oyo State</option>
+              <option value="PL">Plateau State</option>
+              <option value="SO">Sokoto State</option>
+              <option value="TA">Taraba State</option>
+              <option value="YO">Yobe State</option>
+              <option value="ZA">Zamfara State</option>
+            </select>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <script src="/inf.js"></script>
+  </body>
+</html>

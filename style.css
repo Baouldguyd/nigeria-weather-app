@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #59516E;
+}
+
+.container{
+    height: 80%;
+    width: 50%;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.phone1 {
+    width: 15rem;
+    height: 80%;
+    background-color: rgb(11,12,30);
+    border-radius: 30px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    padding: 10px;
+}
+
+
+
+.main-screen{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* height: 100%; */
+    /* background-color: white; */
+    border-radius: 30px;
+}
+
+.top-section, .down-section {
+    height: 100%;
+    
+}
+
+.top-section{
+    display: grid;
+    /* background-color: pink; */
+    grid-template-rows: 1fr 2fr;
+}
+
+
+
+#weather-logo {
+    /* height: 100%; */
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+#place {
+    color: white;
+}
+#menu {
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.wrap {
+    display: flex;
+}
+
+ul{ 
+    
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+img {
+    height: 5rem;
+    width: 5rem;
+}
+li {
+    list-style: none;
+}
+
+
+.down-section{
+    display: grid;
+    /* background-color: yellow; */
+    grid-template-rows: 2fr 1fr;
+}
+
+
+
+#weather-temp{
+    height: 100%;
+/* background-color: black; */
+}
+
+#weather-details {
+/* background-color: grey; */
+display: flex;
+padding: 1rem;
+justify-content: space-around;
+}
+
+span {
+    color: white
+}
+
+
+
+
+.today-screen {
+    height: 100%;
+    border-radius:30px ;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#country-state {
+    background-color: rgb(11,12,30);
+    color: white;
+}
+
+
+
+
+#temp{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p{
+    color: white;
+}
+
+

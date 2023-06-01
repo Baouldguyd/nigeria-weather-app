@@ -1,0 +1,213 @@
+
+/* Reset styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Center the app vertically and set background color */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #59516E;
+}
+
+/* Set the dimensions and background color of the container */
+.container {
+  height: 80%;
+  width: 50%;
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+/* Center the card content vertically and horizontally */
+.card-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 100%;
+}
+
+/* Set the dimensions and background color of the phone screens */
+.phone1,
+.phone2 {
+  width: 15rem;
+  height: 80%;
+  background-color: blue;
+  border-radius: 30px;
+}
+
+/* Add padding and grid layout to phone1 screen */
+.phone1 {
+  display: grid;
+  grid-template-rows: 1fr 6rem;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+/* Add padding and grid layout to phone2 screen */
+.phone2 {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+/* Add grid layout to the main screen */
+.main-screen {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-color: white;
+  border-radius: 30px;
+}
+
+/* Set the height of the top and bottom sections */
+.top-section,
+.down-section {
+  height: 100%;
+}
+
+/* Add grid layout and background color to the top section */
+.top-section {
+  display: grid;
+  background-color: pink;
+  grid-template-rows: 1fr 2fr;
+}
+
+/* Set background color and styles for the location element */
+#location {
+  background-color: yellow;
+  /* Add other styles as needed */
+}
+
+/* Add styles for the weather logo element */
+#weather-logo {
+  height: 100%;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add styles for the box and place elements */
+#box {
+  border: 3px solid white;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+#place {
+  color: white;
+  /* Add other styles as needed */
+}
+
+/* Add styles for the menu element */
+#menu {
+  border: 3px solid white;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+/* Add styles for the wrap element */
+.wrap {
+  display: flex;
+}
+
+/* Add styles for the unordered list */
+ul {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Set dimensions for the images */
+img {
+  height: 5rem;
+  width: 5rem;
+}
+
+/* Remove list styles for the list items */
+li {
+  list-style: none;
+}
+
+/* Add styles for the down section */
+.down-section {
+  display: grid;
+  background-color: yellow;
+  grid-template-rows: 2fr 1fr;
+}
+
+/* Add styles for the weather temp section */
+#weather-temp {
+
+
+  height: 100%;
+  background-color: black;
+  /* Add other styles as needed */
+}
+
+/* Add styles for the weather details section */
+#weather-details {
+  background-color: grey;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+  /* Add other styles as needed */
+}
+
+/* Add styles for the today screen */
+.today-screen {
+  height: 100%;
+  border-radius: 30px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add styles for the country-state element */
+#country-state {
+  background-color: blue;
+  color: white;
+  /* Add other styles as needed */
+}
+
+/* Add styles for the tomorrow screen */
+.tomorrow-screen {
+  height: 100%;
+  background-color: white;
+  border-radius: 30px;
+}
+
+/* Add styles for the weekdays screen */
+.weekdays-screen {
+  height: 100%;
+  border-radius: 30px;
+  background-color: green;
+}
+
+/* Add styles for the headings */
+h1 {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+/* Add styles for paragraphs */
+p {
+  color: white;
+}
+
