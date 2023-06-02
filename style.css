@@ -62,12 +62,17 @@ body{
 
 
 #weather-logo {
-    /* height: 100%; */
-    /* background-color: blueviolet; */
+    
+    
+}
+
+#icon{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+
 
 #box{
     border: 3px solid white;
@@ -101,6 +106,7 @@ img {
     height: 5rem;
     width: 5rem;
 }
+
 li {
     list-style: none;
 }
@@ -121,9 +127,10 @@ li {
 
 #weather-details {
 /* background-color: grey; */
-display: flex;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 padding: 1rem;
-justify-content: space-around;
+
 }
 
 span {
